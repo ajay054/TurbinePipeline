@@ -3,15 +3,21 @@ Wind Turbine Data Processing Pipeline
 
 
 Overview
+
+
 This project is a scalable and testable data processing pipeline designed for a renewable energy company that operates a farm of wind turbines. The pipeline processes raw data collected from turbines, cleans it, calculates summary statistics, identifies anomalies, and stores the processed data for further analysis.
 
 The pipeline is written in Python and is structured to handle daily data updates efficiently.
 
 Features
+
+
 Data Ingestion:
 
 Combines multiple raw CSV files into a single dataset.
 Each file corresponds to a group of turbines.
+
+
 Data Cleaning:
 
 Handles missing values by imputing with the column mean.
@@ -19,9 +25,13 @@ Removes outliers using a z-score threshold (2 standard deviations).
 Summary Statistics:
 
 Calculates minimum, maximum, and average power output for each turbine.
+
+
 Anomaly Detection:
 
 Identifies turbines with power output significantly deviating from their mean (beyond 2 standard deviations).
+
+
 Results Storage:
 
 Saves the cleaned data, summary statistics, and anomalies as CSV files.
