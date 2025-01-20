@@ -82,6 +82,7 @@ Example CSV File Structure
 Each CSV file should follow this format:
 
 timestamp	turbine_id	wind_speed	wind_direction	power_output
+
 2023-01-01 00:00:00	1	12.4	180	2.5
 2023-01-01 01:00:00	2	10.2	200	1.9
 turbine_id: Unique ID for each turbine.
@@ -90,5 +91,7 @@ timestamp: Date and time of measurement.
 
 
 Scalability
+
+
 The pipeline is designed to handle daily updates seamlessly by ingesting new data from the Data/ folder.
 New turbines or additional data files can be added without modifying the code.
