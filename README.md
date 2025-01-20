@@ -1,4 +1,7 @@
 Wind Turbine Data Processing Pipeline
+
+
+
 Overview
 This project is a scalable and testable data processing pipeline designed for a renewable energy company that operates a farm of wind turbines. The pipeline processes raw data collected from turbines, cleans it, calculates summary statistics, identifies anomalies, and stores the processed data for further analysis.
 
